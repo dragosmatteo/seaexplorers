@@ -1,1 +1,1 @@
-# seaexplorers
+# Sea Explorers
