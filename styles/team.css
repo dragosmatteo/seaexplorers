@@ -1,0 +1,141 @@
+.team {
+   padding: 3rem;
+   padding-bottom: 15rem;
+}
+
+.team-container {
+   width: 70%;
+   margin: 0 auto;
+}
+
+.team-text {
+   text-align: center;
+   color: #fff;
+   font-weight: 300;
+}
+
+.team-text span {
+   font-size: var(--title-team);
+   position: relative;
+   font-weight: 300;
+}
+
+.team-text span::after {
+   position: absolute;
+   content: "";
+   background-color: var(--btn-color);
+   height: 5px;
+   border-radius: 5px;
+   bottom: -1rem;
+   margin: 0 auto;
+   left: 0;
+   right: 0;
+   width: 30%;
+}
+
+.team-text h1 {
+   padding-top: 2rem;
+   font-size: var(--title-big-about);
+   line-height: 3rem;
+   font-weight: 300;
+}
+
+.team-members {
+   padding-top: 3rem;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   gap: 1.5rem;
+}
+
+.team-member {
+   font-family: "Myriad Pro", sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   color: #fff;
+   font-weight: 300;
+}
+
+.team-member img {
+   width: 100%;
+   /* width: auto; */
+   border-radius: 50%;
+   border: 5px solid #4526b1;
+}
+
+.team-member h3 {
+   padding-top: 1rem;
+   font-size: var(--title-team);
+   font-weight: bold;
+}
+
+.team-member span {
+   padding-top: 0.5rem;
+}
+
+.team-member ul {
+   display: flex;
+   padding-top: 1rem;
+}
+
+.team-member li {
+   margin: 0 0.5rem;
+}
+
+.team-member li i {
+   background-color: #fff;
+   z-index: 100;
+   color: #4526b1;
+   padding: 0.5rem;
+   font-size: 1.5rem;
+   border-radius: 50%;
+}
+
+@media (max-width: 1130px) {
+   .team {
+      padding: 3rem 0rem;
+   }
+
+   .team-container {
+      width: 80%;
+      margin: 0 auto;
+   }
+}
+
+@media (max-width: 930px) {
+   .team-member img {
+      width: 50%;
+      /* width: auto; */
+      border-radius: 50%;
+      border: 5px solid #4526b1;
+   }
+
+   .team-members {
+      padding-top: 3rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 2rem;
+   }
+}
+
+@media (max-width: 450px) {
+    .team-text span {
+      font-size: 16px;
+   }
+
+   .team-text h1 {
+      padding-top: 2rem;
+      font-size: 20px;
+      line-height: 2rem;
+      font-weight: 300;
+   }
+
+   .team-text p {
+      padding-top: 2rem;
+      font-family: 15px;
+      line-height: 1.5rem;
+   }
+}

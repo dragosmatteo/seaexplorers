@@ -1,0 +1,38 @@
+@import "./home.css";
+@import "./variables.css";
+@import './utility.css';
+@import "./abous.css";
+@import "./team.css";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  font-family: "GROBOLD", sans-serif;
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */
