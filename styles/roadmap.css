@@ -80,17 +80,17 @@
 }
 
 /* FACEM DIFERENTA COORDONATELOR DE START */
-#roadmap .tablet-desktop .left .first-left {
+#roadmap .tablet-desktop .left {
    margin-top: -3em;
 }
 
-#roadmap .tablet-desktop .right .first-right {
+#roadmap .tablet-desktop .right {
    margin-top: 3em;
 }
 
 /* PUNCTUL DE PE ROADMAP */
 #roadmap .tablet-desktop .card::after {
-   content: "";
+   content: "\f00c";
 
    width: 15px;
    height: 15px;
@@ -105,13 +105,13 @@
 }
 
 #roadmap .tablet-desktop .check::after {
-   content: "";
+   content: "\f00c";
 
    width: 15px;
    height: 15px;
 
    border-radius: 100%;
-   background-color: orange;
+   background-color: green;
    /* clip-path: polygon(49% 76%, 93% 0, 100% 15%, 52% 100%, 13% 57%, 20% 40%); */
    position: absolute;
    top: 50%;
@@ -175,9 +175,12 @@
    /* background-color: cadetblue; */
    padding: 0.5em;
    z-index: 100;
+
+   max-width: 300px;
+   margin: auto;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
    #roadmap .mobile {
       display: none;
    }
@@ -187,7 +190,7 @@
    }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1023px) {
    #roadmap .tablet-desktop {
       display: none;
    }

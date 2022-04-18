@@ -1,6 +1,6 @@
 @import "./home.css";
 @import "./variables.css";
-@import './utility.css';
+@import "./utility.css";
 @import "./abous.css";
 @import "./team.css";
 @import "./roadmap.css";
@@ -9,35 +9,38 @@
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
+   scroll-behavior: smooth;
 }
 
 .container {
-  width: 90%;
-  margin: 0 auto;
+   width: 90%;
+   margin: 0 auto;
 }
 
 li {
-  list-style: none;
+   list-style: none;
 }
 
 a {
-  text-decoration: none;
-  color: #fff;
+   text-decoration: none;
+   color: #fff;
 }
 
 body {
-  font-family: "GROBOLD", sans-serif;
-  width: 100%;
+   font-family: "GROBOLD", sans-serif;
+   width: 100%;
+   background: url("/images/backround.png");
+   background-position: center;
+   background-repeat: no-repeat;
 
-  background-color: #220F53;
+   background-color: #220f53;
 }
 
 /*# sourceMappingURL=styles.css.map */
