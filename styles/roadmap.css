@@ -62,14 +62,14 @@
    height: 100%;
    width: 50%;
 
-   border-right: 1px solid white;
+   border-right: 2px solid white;
 }
 
 #roadmap .tablet-desktop .right {
    height: 100%;
    width: 50%;
 
-   border-left: 1px solid white;
+   border-left: 2px solid white;
 }
 
 #roadmap .tablet-desktop .right,
@@ -104,6 +104,21 @@
    outline: 5px solid white;
 }
 
+#roadmap .tablet-desktop .check::after {
+   content: "";
+
+   width: 15px;
+   height: 15px;
+
+   border-radius: 100%;
+   background-color: orange;
+   /* clip-path: polygon(49% 76%, 93% 0, 100% 15%, 52% 100%, 13% 57%, 20% 40%); */
+   position: absolute;
+   top: 50%;
+   color: #fff;
+   outline: 5px solid white;
+}
+
 /* POZITIA PUNCTULUI PE AXA */
 #roadmap .tablet-desktop .left .card::after {
    right: calc((min(800px, 80vw) * (25 / 100) / 2 * (-1)));
@@ -120,9 +135,9 @@
    content: "";
 
    width: 30%;
-   height: 2px;
+   height: 3px;
 
-   background-color: lightslategray;
+   background-color: rgb(255, 255, 255);
    position: absolute;
    top: 50%;
 }
@@ -218,6 +233,22 @@
 }
 
 @media (max-width: 450px) {
+   #roadmap {
+      min-height: 100vh;
+      width: min(800px, 80vw);
+      margin: 4rem auto;
+      font-weight: 100;
+      color: white;
+   }
+
+   .roadmap-text {
+      text-align: center;
+      color: #fff;
+      font-weight: 300;
+      /* padding: 2rem 0; */
+      padding-bottom: 3rem;
+   }
+
    .roadmap-text span {
       font-size: 20px;
    }
@@ -227,5 +258,10 @@
       font-size: 25px;
       line-height: 2rem;
       font-weight: 300;
+   }
+
+   #roadmap .card h2 {
+      font-weight: 300;
+      font-size: 20px;
    }
 }
