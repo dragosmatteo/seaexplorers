@@ -1,126 +1,155 @@
 footer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 2em;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   gap: 2em;
 
-    width: max(80%, 320px);
-    margin: auto;
+   width: max(80%, 320px);
+   margin: auto;
 
-    position: relative;
-    padding: 2em 0;
-
-    font-family: var(--font-secondary);
+   position: relative;
+   padding: 2em 0;
+   font-weight: 300;
+   font-family: var(--font-secondary);
 }
 
 footer h1 {
-    flex-basis: 100%;
-    opacity: .5;
-    font-size: 5vw;
-    position: relative;
+   flex-basis: 100%;
+   opacity: 0.5;
+   font-size: 5vw;
+   position: relative;
+   font-weight: 300;
 }
 
 footer h1::before {
-    content: 'CONTACT';
-    position: absolute;
-    font-size: calc((64/24)*5vw);
+   content: "CONTACT";
+   position: absolute;
+   font-size: calc((64 / 24) * 5vw);
 
-    top: -75%;
-    left: 50%;
-    height: calc((100%-4em)/2);
+   top: -75%;
+   left: 50%;
+   height: calc((100%-4em) / 2);
 
-    transform: translateX(-50%);
+   transform: translateX(-50%);
 
-    opacity: .1;
+   opacity: 0.1;
+   font-weight: 300;
 }
 
 footer h1,
 footer h1::before {
-    font-family: var(--font-primary);
+   font-family: var(--font-primary);
 }
 
 footer .contact {
-    display: flex;
-    flex-direction: row;
+   display: flex;
+   flex-direction: row;
 }
 
 footer .discord-message,
 footer .email-message {
-    flex-basis: 100%;
+   flex-basis: 100%;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
-    font-size: 1.5em;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 1em;
+   font-size: 1.5em;
+}
+
+footer h3 {
+   font-weight: 300;
 }
 
 footer:not(hr) {
-    color: white;
+   color: white;
 }
 
 footer hr {
-    height: 2px;
-    width: 100%;
-    background-color: gray;
-    border: none;
+   height: 2px;
+   width: 100%;
+   background-color: gray;
+   border: none;
 }
 
 footer .social-icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2em;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 2em;
 }
 
 footer .social-icons .icon-wrapper {
-    display: grid;
-    place-items: center;
+   display: grid;
+   place-items: center;
 
-    width: 3em;
-    height: 3em;
-    border-radius: 100%;
-    background-color: black;
+   width: 3em;
+   height: 3em;
+   border-radius: 100%;
+   background-color: black;
 }
 
 footer .social-icons .icon-wrapper a {
-    color: #1E0E54;
+   color: #1e0e54;
 }
 
 footer .social-icons .icon-wrapper .fa-brands {
-    font-size: 2em;
+   font-size: 2em;
 }
 
 footer .social-icons .icon-wrapper .fa-solid {
-    font-size: 1.75em;
+   font-size: 1.75em;
 }
 
 @media only screen and (min-width: 768px) {
-    footer h1 {
-        font-size: 3vw;
-    }
+   footer h1 {
+      font-size: 3vw;
+   }
 
-    footer h1::before {
-        font-size: calc((64/24)*3vw);
-    }
+   footer h1::before {
+      font-size: calc((64 / 24) * 3vw);
+   }
 
-    .discord-message,
-    .email-message {
-        margin: 5vw 0;
-        flex-basis: 50%;
-    }
+   .discord-message,
+   .email-message {
+      margin: 5vw 0;
+      flex-basis: 50%;
+   }
 }
 
 .discord-message i,
 .email-message i {
-    color: black;
+   color: black;
 }
 
 @media only screen and (max-width: 767px) {
-    footer .contact {
-        flex-direction: column;
-        gap: 2em;
-    }
+   footer .contact {
+      flex-direction: column;
+      gap: 2em;
+   }
+}
+
+@media (max-width: 500px) {
+   footer h1::before {
+      content: "CONTACT";
+      position: absolute;
+      font-size: calc((64 / 24) * 6vw);
+
+      top: -75%;
+      left: 50%;
+      height: calc((100%-4em) / 2);
+
+      transform: translateX(-50%);
+
+      opacity: 0.1;
+      font-weight: 300;
+   }
+   footer h1 {
+      flex-basis: 100%;
+      opacity: 0.5;
+      font-size: 6vw;
+      position: relative;
+   }
 }

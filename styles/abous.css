@@ -105,6 +105,12 @@
 }
 
 @media (max-width: 600px) {
+   #about {
+      padding-top: 6rem;
+      padding-left: 0rem;
+      padding-right: 0rem;
+   }
+
    .about-image img {
       width: 400px;
       height: auto;
@@ -135,12 +141,12 @@
    }
 
    .about-text span {
-      font-size: 16px;
+      font-size: 20px;
    }
 
    .about-text h1 {
       padding-top: 2rem;
-      font-size: 18px;
+      font-size: 24px;
       line-height: 2.25rem;
       font-weight: 300;
    }

@@ -1,25 +1,96 @@
 :root {
-    --font-primary: "GROBOLD", sans-serif;
-    --font-secondary: 'Myriad Pro', sans-serif;
+   --font-primary: "GROBOLD", sans-serif;
+   --font-secondary: "Myriad Pro", sans-serif;
 
-    --btn-color: #FD562A;
+   --btn-color: #fd562a;
 
-    /* !HOME! */
-    --title-home: 21px;
-    --title-big-home: 50px;
-    --title-button-home: 25px;
+   /* !HOME! */
+   --title-home: 21px;
+   --title-big-home: 50px;
+   --title-button-home: 25px;
 
-    /* !Utility! */
-    --title-utility: 23px;
-    --description-utility: 17px;
+   /* !Utility! */
+   --title-utility: 23px;
+   --description-utility: 17px;
 
-    /* !About us! */
-    --title-about: 28px;
-    --title-big-about: 34px;
-    --description-about: 20px;
+   /* !About us! */
+   --title-about: 28px;
+   --title-big-about: 34px;
+   --description-about: 20px;
 
-    /* !FOOTER! */
-    --title-team: 24px;
-    --title-big-team: 50px;
-    --description-team: 16px;
+   /* !FOOTER! */
+   --title-team: 24px;
+   --title-big-team: 50px;
+   --description-team: 16px;
+
+   /* !card colors! */
+   /* left */
+   --card-1: #4669a4;
+   --card-2: #265ab1;
+   --card-3: #2664b1;
+   --card-4: #4526b1;
+   --card-5: #3b3ece;
+   --card-6: #4441c1;
+
+   /* rigth */
+   --ccard-1: #2664b1;
+   --ccard-2: #1b5392;
+   --ccard-3: #3326b1;
+   --ccard-4: #5e26b1;
+   --ccard-5: #3713b4;
+   --ccard-6: #4526b1;
+
+   /* !roadmap! */
+   --roadmap-title: 24px;
+   --roadmap-desc: 21px;
+}
+
+/* left */
+.card1 {
+   background-color: var(--card-1);
+}
+
+.card2 {
+   background-color: var(--card-2);
+}
+
+.card3 {
+   background-color: var(--card-3);
+}
+
+.card4 {
+   background-color: var(--card-4);
+}
+
+.card5 {
+   background-color: var(--card-5);
+}
+
+.card6 {
+   background-color: var(--card-6);
+}
+
+/* right */
+.ccard1 {
+   background-color: var(--ccard-1);
+}
+
+.ccard2 {
+   background-color: var(--ccard-2);
+}
+
+.ccard3 {
+   background-color: var(--ccard-3);
+}
+
+.ccard4 {
+   background-color: var(--ccard-4);
+}
+
+.ccard5 {
+   background-color: var(--ccard-5);
+}
+
+.ccard6 {
+   background-color: var(--ccard-6);
 }
