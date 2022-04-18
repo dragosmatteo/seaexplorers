@@ -1,0 +1,126 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+
+    width: max(80%, 320px);
+    margin: auto;
+
+    position: relative;
+    padding: 2em 0;
+
+    font-family: var(--font-secondary);
+}
+
+footer h1 {
+    flex-basis: 100%;
+    opacity: .5;
+    font-size: 5vw;
+    position: relative;
+}
+
+footer h1::before {
+    content: 'CONTACT';
+    position: absolute;
+    font-size: calc((64/24)*5vw);
+
+    top: -75%;
+    left: 50%;
+    height: calc((100%-4em)/2);
+
+    transform: translateX(-50%);
+
+    opacity: .1;
+}
+
+footer h1,
+footer h1::before {
+    font-family: var(--font-primary);
+}
+
+footer .contact {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .discord-message,
+footer .email-message {
+    flex-basis: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    font-size: 1.5em;
+}
+
+footer:not(hr) {
+    color: white;
+}
+
+footer hr {
+    height: 2px;
+    width: 100%;
+    background-color: gray;
+    border: none;
+}
+
+footer .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+footer .social-icons .icon-wrapper {
+    display: grid;
+    place-items: center;
+
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+    background-color: black;
+}
+
+footer .social-icons .icon-wrapper a {
+    color: #1E0E54;
+}
+
+footer .social-icons .icon-wrapper .fa-brands {
+    font-size: 2em;
+}
+
+footer .social-icons .icon-wrapper .fa-solid {
+    font-size: 1.75em;
+}
+
+@media only screen and (min-width: 768px) {
+    footer h1 {
+        font-size: 3vw;
+    }
+
+    footer h1::before {
+        font-size: calc((64/24)*3vw);
+    }
+
+    .discord-message,
+    .email-message {
+        margin: 5vw 0;
+        flex-basis: 50%;
+    }
+}
+
+.discord-message i,
+.email-message i {
+    color: black;
+}
+
+@media only screen and (max-width: 767px) {
+    footer .contact {
+        flex-direction: column;
+        gap: 2em;
+    }
+}

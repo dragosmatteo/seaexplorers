@@ -1,4 +1,4 @@
-.about {
+#about {
    padding-top: 6rem;
    padding-left: 3rem;
    padding-right: 3rem;
@@ -85,9 +85,10 @@
 }
 
 @media (max-width: 1024px) {
-   .about {
+   #about {
       padding: 2rem;
    }
+
    .about-content {
       display: flex;
       flex-direction: column;

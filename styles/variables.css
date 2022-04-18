@@ -5,21 +5,21 @@
     --btn-color: #FD562A;
 
     /* !HOME! */
-    --title-home : 21px;
+    --title-home: 21px;
     --title-big-home: 50px;
     --title-button-home: 25px;
 
     /* !Utility! */
-    --title-utility : 23px;
-    --description-utility: 17px
+    --title-utility: 23px;
+    --description-utility: 17px;
 
     /* !About us! */
-    --title-about : 28px;
+    --title-about: 28px;
     --title-big-about: 34px;
     --description-about: 20px;
 
     /* !FOOTER! */
-     --title-team : 24px;
+    --title-team: 24px;
     --title-big-team: 50px;
     --description-team: 16px;
 }

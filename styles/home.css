@@ -1,4 +1,4 @@
-.home {
+#home {
    background: url("/images/home_bg.png");
    min-height: 100vh;
    background-position: center;
@@ -6,6 +6,14 @@
    width: auto;
    background-size: cover;
    z-index: 999;
+}
+
+#home .wave-svg-wrapper {
+   position: absolute;
+   bottom: -45px;
+   left: 0;
+
+   width: 100%;
 }
 
 .logo {
@@ -46,7 +54,7 @@
    padding: 0;
 }
 
-.menu > a {
+.menu>a {
    margin: 0 1.5rem;
 }
 
@@ -86,16 +94,16 @@
    margin-top: 8px;
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button::before {
+#menu-toggle:checked+.menu-button-container .menu-button::before {
    margin-top: 0px;
    transform: rotate(405deg);
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button {
+#menu-toggle:checked+.menu-button-container .menu-button {
    background: rgba(255, 255, 255, 0);
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button::after {
+#menu-toggle:checked+.menu-button-container .menu-button::after {
    margin-top: 0px;
    transform: rotate(-405deg);
 }
@@ -104,6 +112,7 @@
    .menu-button-container {
       display: flex;
    }
+
    .menu {
       position: absolute;
       top: 0;
@@ -116,20 +125,23 @@
       visibility: hidden;
       z-index: 100;
    }
-   #menu-toggle ~ .menu a {
+
+   #menu-toggle~.menu a {
       height: 0;
       margin: 0;
       padding: 0;
       border: 0;
       transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
    }
-   #menu-toggle:checked ~ .menu a {
+
+   #menu-toggle:checked~.menu a {
       border: 1px solid #333;
       height: 2.5em;
       padding: 0.5em;
       transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
       visibility: visible;
    }
+
    .menu a {
       display: flex;
       justify-content: center;
@@ -139,6 +151,7 @@
       color: white;
       background-color: #222;
    }
+
    .menu a:not(:last-child) {
       border-bottom: 1px solid #444;
    }

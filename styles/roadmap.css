@@ -1,0 +1,183 @@
+#roadmap {
+    min-height: 100vh;
+    width: min(800px, 80vw);
+    margin: 6em auto;
+
+    color: white;
+}
+
+#roadmap p {
+    font-family: var(--font-secondary);
+}
+
+#roadmap .card {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    border: none;
+    border-radius: 5px;
+}
+
+#roadmap .tablet-desktop {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+#roadmap .tablet-desktop .card {
+    max-width: 75%;
+    margin-bottom: 30px;
+    position: relative;
+
+    background-color: cadetblue;
+
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+}
+
+/* POZITIONAM CARDURILE LA EXTREMITATI */
+#roadmap .tablet-desktop .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#roadmap .tablet-desktop .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* FACEM LINIA DE PE MIJLOC */
+#roadmap .tablet-desktop .left {
+    height: 100%;
+    width: 50%;
+
+    border-right: 1px solid white;
+}
+
+
+#roadmap .tablet-desktop .right {
+    height: 100%;
+    width: 50%;
+
+    border-left: 1px solid white;
+}
+
+#roadmap .tablet-desktop .right,
+#roadmap .tablet-desktop .left {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+/* FACEM DIFERENTA COORDONATELOR DE START */
+#roadmap .tablet-desktop .left .first-left {
+    margin-top: -3em;
+}
+
+#roadmap .tablet-desktop .right .first-right {
+    margin-top: 3em;
+}
+
+
+/* PUNCTUL DE PE ROADMAP */
+#roadmap .tablet-desktop .card::after {
+    content: '';
+
+    width: 15px;
+    height: 15px;
+
+    border-radius: 100%;
+    background-color: orange;
+
+    position: absolute;
+    top: 50%;
+
+
+    outline: 5px solid white;
+}
+
+
+/* POZITIA PUNCTULUI PE AXA */
+#roadmap .tablet-desktop .left .card::after {
+    right: calc((min(800px, 80vw)*(25/100)/2*(-1)));
+    transform: translate(50%, -50%);
+}
+
+#roadmap .tablet-desktop .right .card::after {
+    left: calc((min(800px, 80vw)*(25/100)/2*(-1)));
+    transform: translate(-50%, -50%);
+}
+
+
+/* LINIA CARE UNESTE CARDUL CU PUNCTUL */
+#roadmap .tablet-desktop .card::before {
+    content: '';
+
+    width: 30%;
+    height: 2px;
+
+    background-color: lightslategray;
+    position: absolute;
+    top: 50%;
+}
+
+/* POZITIA LINIEI FATA DE CARD */
+#roadmap .tablet-desktop .left .card::before {
+    right: -30%;
+}
+
+#roadmap .tablet-desktop .right .card::before {
+    left: -30%;
+}
+
+#roadmap .mobile {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2em;
+    position: relative;
+}
+
+#roadmap .mobile::before {
+    content: '';
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: white;
+}
+
+#roadmap .mobile .card {
+    background-color: cadetblue;
+    padding: .5em;
+    z-index: 100;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    #roadmap .mobile {
+        display: none;
+    }
+
+    #roadmap .tablet-desktop {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #roadmap .tablet-desktop {
+        display: none;
+    }
+
+    #roadmap .mobile {
+        display: flex;
+    }
+}
