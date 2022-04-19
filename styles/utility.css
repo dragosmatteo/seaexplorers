@@ -112,6 +112,10 @@
 }
 
 @media (max-width: 500px) {
+   .utility-items {
+      top: -5rem;
+   }
+
    .utility-item {
       height: 350px;
       padding: 3rem 2rem;

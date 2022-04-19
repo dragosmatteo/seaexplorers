@@ -1,6 +1,7 @@
 #team {
    padding: 3rem;
    padding-bottom: 15rem;
+   z-index: 100;
 }
 
 .team-container {
