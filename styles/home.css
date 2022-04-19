@@ -71,6 +71,10 @@
    margin: 0 1.5rem;
 }
 
+.menu > a:hover {
+   text-decoration: underline;
+}
+
 .menu-button-container {
    display: none;
    height: 100%;
