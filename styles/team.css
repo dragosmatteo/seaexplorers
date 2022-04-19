@@ -92,6 +92,12 @@
    padding: 0.5rem;
    font-size: 1.5rem;
    border-radius: 50%;
+   transition: 0.3s ease-in;
+}
+
+.team-member li i:hover {
+   color: #fff;
+   background-color: #4526b1;
 }
 
 @media (max-width: 1130px) {

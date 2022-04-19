@@ -89,6 +89,17 @@ footer .social-icons .icon-wrapper {
    height: 3em;
    border-radius: 100%;
    background-color: black;
+   transition: 0.3s ease;
+}
+
+footer .social-icons .icon-wrapper:hover {
+   display: grid;
+   place-items: center;
+
+   width: 3em;
+   height: 3em;
+   border-radius: 100%;
+   background-color: rgb(255, 255, 255);
 }
 
 footer .social-icons .icon-wrapper a {
@@ -122,6 +133,13 @@ footer .social-icons .icon-wrapper .fa-solid {
 .discord-message i,
 .email-message i {
    color: black;
+   transition: all 0.3s ease;
+   font-size: 2rem;
+}
+
+.discord-message i:hover,
+.email-message i:hover {
+   color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 767px) {
@@ -134,6 +152,10 @@ footer .social-icons .icon-wrapper .fa-solid {
 @media (max-width: 500px) {
    footer {
       padding: 3rem 0;
+   }
+
+   footer p {
+      font-size: 18px;
    }
 
    footer h1::before {
