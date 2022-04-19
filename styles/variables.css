@@ -1,3 +1,13 @@
+@font-face {
+   font-family: "GROBOLD";
+   src: url("/fonts/GROBOLD.ttf");
+}
+
+/* @font-face {
+   font-family: ;
+   src: url();
+} */
+
 :root {
    --font-primary: "GROBOLD", sans-serif;
    --font-secondary: "Myriad Pro", sans-serif;
