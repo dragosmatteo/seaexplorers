@@ -6,6 +6,9 @@
 @import "./roadmap.css";
 @import "./footer.css";
 
+@import url("http://fonts.cdnfonts.com/css/grobold");
+@import url("http://fonts.cdnfonts.com/css/myriad-pro");
+
 *,
 *::after,
 *::before {
