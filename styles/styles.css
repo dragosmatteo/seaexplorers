@@ -36,6 +36,11 @@ a {
    color: #fff;
 }
 
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
 body {
    font-family: "GROBOLD", sans-serif;
    width: 100%;
