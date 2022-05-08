@@ -164,6 +164,8 @@
       justify-content: center;
       margin: 0;
       padding: 1em 0;
+      align-items: center;
+      align-content: center;
       width: 100%;
       color: white;
       background-color: #222;
