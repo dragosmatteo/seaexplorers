@@ -1,9 +1,10 @@
 .big_bg {
-   background: url("/images/backround.png");
+   /* background: url("/images/backround.png"); */
    background-position: center;
    background-repeat: no-repeat;
    min-height: 235vh;
    width: auto;
+   background-color: #4526b1;
    background-size: cover;
    z-index: -1;
 }
