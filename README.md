@@ -5,10 +5,10 @@
 <div align="center">
   <h3 align="center">Sea Explorers</h3>
   <div align="inline-block">
+    <img src="images/team/member.png" alt="Logo" width="160" height="160">
+    <img src="images/team/member1.png" alt="Logo" width="160" height="160">
     <img src="images/team/member2.png" alt="Logo" width="160" height="160">
-    <img src="images/team/member2.png" alt="Logo" width="160" height="160">
-    <img src="images/team/member2.png" alt="Logo" width="160" height="160">
-    <img src="images/team/member2.png" alt="Logo" width="160" height="160">
+    <img src="images/team/member3.png" alt="Logo" width="160" height="160">
   </div>
 
 </div>
