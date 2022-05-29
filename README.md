@@ -41,9 +41,9 @@ Exploring the depths in search of hidden gems
 
 ### Built With
 
--  [Html](https://reactjs.org/)
--  [Css](https://vuejs.org/)
--  [Javascript](https://angular.io/)
+-  [Html]()
+-  [Css]()
+-  [Javascript]()
 -  [Scroll Reveal](https://nextjs.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
