@@ -3,11 +3,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+  <h3 align="center">Sea Explorers</h3>
   <div>
     <img src="images/logo.png" alt="Logo" width="160" height="160">
   </div>
 
-  <h3 align="center">Sea Explorers</h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
