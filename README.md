@@ -33,7 +33,7 @@
 
 ## About The Project
 
-[![`/images/favicon.ico`][product-screenshot]](https://seasexplorers.com/)
+[Site](https://seasexplorers.com/)
 
 Exploring the depths in search of hidden gems
 
