@@ -4,10 +4,10 @@
 <br />
 <div align="center">
   <div>
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  <h3 align="center">Sea Explorers</h3>
+    <img src="images/logo.png" alt="Logo" width="160" height="160">
   </div>
 
+  <h3 align="center">Sea Explorers</h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
