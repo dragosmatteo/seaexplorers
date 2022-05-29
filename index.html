@@ -83,7 +83,7 @@
       <!-- !HOME! -->
       <section id="home">
          <!-- <img src="./images/home_bg.png" alt="" class="bg-image" /> -->
-         <img src="./images/seawave.png" alt="" class="bg-image" />
+         <img src="./images/seawave.png" alt="sea" class="bg-image" />
          <header class="top-nav">
             <div class="logo">
                <img src="./images/logo.png" alt="logo" />
@@ -94,11 +94,21 @@
                <div class="menu-button"></div>
             </label>
             <ul class="menu">
-               <a href="#utility">Utility</a>
-               <a href="#about">Our mission</a>
-               <a href="#roadmap">Roadmap</a>
-               <a href="#team">Team</a>
-               <a href="https://discord.gg/CvxsJUSXtA">Faq</a>
+               <li>
+                  <a href="#utility">Utility</a>
+               </li>
+               <li>
+                  <a href="#about">Our mission</a>
+               </li>
+               <li>
+                  <a href="#roadmap">Roadmap</a>
+               </li>
+               <li>
+                  <a href="#team">Team</a>
+               </li>
+               <li>
+                  <a href="https://discord.gg/CvxsJUSXtA">Faq</a>
+               </li>
             </ul>
          </header>
 
@@ -110,7 +120,7 @@
       </section>
 
       <!-- !UTILITY! -->
-      <div class="utility" id="utility">
+      <section class="utility" id="utility">
          <div class="utility-items">
             <div class="utility-item">
                <img src="./images/utility1 (11).png" alt="utility" />
@@ -154,7 +164,7 @@
                </p>
             </div>
          </div>
-      </div>
+      </section>
 
       <!-- !ABOUT US! -->
       <section id="about">
@@ -312,7 +322,7 @@
          </div>
 
          <!-- !Mobile! -->
-         <div class="mobile">
+         <section class="mobile">
             <div class="card first-left card1">
                <h2>Design & Community</h2>
                <p>
@@ -413,7 +423,7 @@
                   ecosystem for explorers.
                </p>
             </div>
-         </div>
+         </section>
       </section>
 
       <!-- !TEAM! -->
@@ -583,9 +593,11 @@
       </footer>
 
       <!-- top -->
-      <a href="#" class="to-top">
-         <i class="fas fa-chevron-up"></i>
-      </a>
+      <div>
+         <a href="#" class="to-top">
+            <i class="fas fa-chevron-up"></i>
+         </a>
+      </div>
 
       <!-- !SCROLL REVEAL! -->
       <script>
@@ -606,8 +618,16 @@
             origin: "top",
             distance: "100px",
          });
-      </script>
 
-      <script src="/main.js"></script>
+         const toTop = document.querySelector(".to-top");
+
+         window.addEventListener("scroll", () => {
+            if (window.pageYOffset > 500) {
+               toTop.classList.add("active");
+            } else {
+               toTop.classList.remove("active");
+            }
+         });
+      </script>
    </body>
 </html>

@@ -88,7 +88,7 @@ footer .social-icons .icon-wrapper {
    width: 3em;
    height: 3em;
    border-radius: 100%;
-   background-color: black;
+   background-color: #44a0f4;
    transition: 0.3s ease;
 }
 
@@ -132,7 +132,7 @@ footer .social-icons .icon-wrapper .fa-solid {
 
 .discord-message i,
 .email-message i {
-   color: black;
+   color: #44a0f4;
    transition: all 0.3s ease;
    font-size: 2rem;
 }
