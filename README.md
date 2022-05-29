@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <div>
-    <img src="images/favicon.ico" alt="Logo" width="160" height="160">
+    <img src="images/logo.png" alt="Logo" width="160" height="160">
   </div>
 
   <h3 align="center">Sea Explorers</h3>
