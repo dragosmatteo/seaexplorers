@@ -33,7 +33,7 @@
 
 ## About The Project
 
-[Site](https://seasexplorers.com/)
+[Sea Explorers Website](https://seasexplorers.com/)
 
 Exploring the depths in search of hidden gems
 
@@ -84,7 +84,7 @@ If you enter the sea explorers club by buying one nft you can access real life u
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/dragos_matteo) - contact@dragosmatteo.com
+Your Name - [@dragos_matteo](https://twitter.com/dragos_matteo) - contact@dragosmatteo.com
 
 Personal Site - [http://dragosmatteo.com/](http://dragosmatteo.com/)
 
