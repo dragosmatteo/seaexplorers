@@ -84,9 +84,9 @@ If you enter the sea explorers club by buying one nft you can access real life u
 
 ## Contact
 
-Your Name - [@dragos_matteo](https://twitter.com/dragos_matteo) - contact@dragosmatteo.com
+Your Name: [@dragos_matteo](https://twitter.com/dragos_matteo) - contact@dragosmatteo.com
 
-Personal Site - [http://dragosmatteo.com/](http://dragosmatteo.com/)
+Personal Site: [http://dragosmatteo.com/](http://dragosmatteo.com/)
 
 Project Link: [https://github.com/dragosmatteo/seaexplorers](https://github.com/dragosmatteo/seaexplorers)
 
