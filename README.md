@@ -88,7 +88,7 @@ Your Name - [@dragos_matteo](https://twitter.com/dragos_matteo) - contact@dragos
 
 Personal Site - [http://dragosmatteo.com/](http://dragosmatteo.com/)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/dragosmatteo/seaexplorers)
+Project Link: [https://github.com/dragosmatteo/seaexplorers](https://github.com/dragosmatteo/seaexplorers)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
