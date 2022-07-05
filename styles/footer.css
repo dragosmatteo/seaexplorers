@@ -84,18 +84,16 @@ footer .social-icons {
 footer .social-icons .icon-wrapper {
    display: grid;
    place-items: center;
-
    width: 3em;
    height: 3em;
    border-radius: 100%;
-   background-color: #44a0f4;
+   background-color: #fff;
    transition: 0.3s ease;
 }
 
 footer .social-icons .icon-wrapper:hover {
    display: grid;
    place-items: center;
-
    width: 3em;
    height: 3em;
    border-radius: 100%;
@@ -132,7 +130,7 @@ footer .social-icons .icon-wrapper .fa-solid {
 
 .discord-message i,
 .email-message i {
-   color: #44a0f4;
+   color: #ffffff;
    transition: all 0.3s ease;
    font-size: 2rem;
 }

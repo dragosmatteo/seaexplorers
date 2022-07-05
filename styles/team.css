@@ -66,6 +66,11 @@
    border: 5px solid #4526b1;
 }
 
+.team-member img:hover {
+   transform: scale(1.05);
+   cursor: pointer;
+}
+
 .team-member h3 {
    padding-top: 1rem;
    font-size: var(--title-team);
