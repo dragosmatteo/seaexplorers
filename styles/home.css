@@ -4,7 +4,7 @@
    /* background-position: center; */
    /* background-repeat: no-repeat; */
    width: auto;
-   background-size: cover;
+   /* background-size: cover; */
    z-index: 999;
 
    position: relative;
@@ -20,7 +20,7 @@
    height: 110%;
    z-index: -100;
    top: -10px;
-   background-size: cover;
+   background-size: contain;
 }
 
 #home .wave-svg-wrapper {
